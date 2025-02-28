@@ -9,6 +9,7 @@ public class PressurePlate : MonoBehaviour, ITriggerable
     private bool canActivate = true;
     public void Trigger()
     {
+        MyEvents.someEvent.Invoke(5);
         if (!canActivate) return;
 
         StartCoroutine(Cooldown());
