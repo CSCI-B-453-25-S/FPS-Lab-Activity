@@ -1364,6 +1364,67 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 421944, guid: ea39c929a43fec843a8747fa0f34346e, type: 3}
   m_PrefabInstance: {fileID: 817572610}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1454164965
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 71274e5367821c041a6edcf5d7746e87, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.7880007
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71274e5367821c041a6edcf5d7746e87, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71274e5367821c041a6edcf5d7746e87, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.4449492
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71274e5367821c041a6edcf5d7746e87, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71274e5367821c041a6edcf5d7746e87, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71274e5367821c041a6edcf5d7746e87, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71274e5367821c041a6edcf5d7746e87, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71274e5367821c041a6edcf5d7746e87, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71274e5367821c041a6edcf5d7746e87, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 71274e5367821c041a6edcf5d7746e87, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 71274e5367821c041a6edcf5d7746e87, type: 3}
+      propertyPath: m_Name
+      value: Unarmed Walk Forward
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 71274e5367821c041a6edcf5d7746e87, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8dce84c63d028cc4d9259bb949a27046, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 71274e5367821c041a6edcf5d7746e87, type: 3}
 --- !u!1 &1479608076
 GameObject:
   m_ObjectHideFlags: 0
@@ -7425,3 +7486,4 @@ SceneRoots:
   - {fileID: 936763578}
   - {fileID: 513800504}
   - {fileID: 2050050090}
+  - {fileID: 1454164965}
